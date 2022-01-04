@@ -1,3 +1,17 @@
+#Blog-Practice
+
+this is a practice using Sanity.io and React based in this tutorials:
+
+Setting up a React app and a Sanity project
+- Part 1: https://www.youtube.com/watch?v=D8xaQxhJHlg&t=2s
+- Part 2: https://youtu.be/Sts8iIS9sOA
+- Part 3: https://youtu.be/5fXHHVussn4
+- Part 4: https://youtu.be/Yx_9eYrCYiM
+
+It isn't finished yet but when It done I make a better description about my progress.
+
+I hope you enjoy it :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
