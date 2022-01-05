@@ -12,8 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePost />} />
-        <Route path="/Post" element={<Post />} />
-        {/* /:slug */}
+        <Route path="/:slug" element={<Post />} />
       </Routes>
     </BrowserRouter>
   );
