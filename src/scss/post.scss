@@ -1,0 +1,16 @@
+.px-16.lg\:px-48.py-12.lg\:py-20.prose.lg\:prose-xl.max-w-full.text-gray-500.bg-slate-800 > div{
+    display: grid;
+    gap: 20px;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: inherit;
+        font-weight: bold;
+        color: #b1bed3;
+        margin-top: 10px !important;
+    }
+    
+    h3{
+        font-size: 24px;
+    }
+    
+}
