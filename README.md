@@ -1,5 +1,16 @@
 #Blog-Practice
 
+IMPORTANT: 
+- this is not for commercial proporse, this's only for fun
+- all image are from https://pixeljeff1995.artstation.com/ (Pixel Jeff), I don't know him but follow him anyway, he's so good creating pixel art :D <3 !!
+
+First Results: 
+
+![image](https://user-images.githubusercontent.com/39066351/148985710-e33a8569-bb6a-4c1b-b6d8-cd2a8d59bee2.png)
+
+![image](https://user-images.githubusercontent.com/39066351/148985776-7cb98800-4943-4fd6-a7a9-b2d719f46a92.png)
+
+
 this is a practice using Sanity.io and React based in this tutorials:
 
 Setting up a React app and a Sanity project
