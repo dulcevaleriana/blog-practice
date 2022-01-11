@@ -6,6 +6,8 @@ import BlockContent from '@sanity/block-content-to-react';
 
 import ImageUrlBuilder from "@sanity/image-url";
 
+import '../scss/post.scss';
+
 const builder = ImageUrlBuilder(SanityClient);
 function urlFor(source){
     return builder.image(source);
@@ -36,6 +38,16 @@ export default function Post() {
         .catch(console.error)
     },[slug]);
 
+    const serializers = {
+        types: {
+          code: (props) => (
+            <pre data-language={props.node.language}>
+              <code>{props.node.code}</code>
+            </pre>
+          ),
+        },
+    }
+
     if(!postData) return <div>Loading...</div>;
 
     console.log(postData)
@@ -61,7 +73,7 @@ export default function Post() {
                         blocks={postData.body} 
                         projectId={SanityClient.clientConfig.projectId}
                         dataset={SanityClient.clientConfig.dataset}
-                        // serializers={}
+                        serializers={serializers}
                     />
                 </div>
             </div>
