@@ -6,9 +6,14 @@ IMPORTANT:
 
 First Results: 
 
+React front:
+
 ![image](https://user-images.githubusercontent.com/39066351/148985710-e33a8569-bb6a-4c1b-b6d8-cd2a8d59bee2.png)
 
 ![image](https://user-images.githubusercontent.com/39066351/148985776-7cb98800-4943-4fd6-a7a9-b2d719f46a92.png)
+
+Sanity api:
+![image](https://user-images.githubusercontent.com/39066351/148986534-3f4af62a-904c-4d8f-9f55-3f11532d04be.png)
 
 
 this is a practice using Sanity.io and React based in this tutorials:
