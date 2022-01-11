@@ -7,6 +7,7 @@ import {
 import HomePost from './views/HomePost';
 import Post from './views/Post';
 import './App.css';
+import './scss/scrollbar.scss';
 
 function App() {
   return (
