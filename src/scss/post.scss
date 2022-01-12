@@ -12,5 +12,11 @@
     h3{
         font-size: 24px;
     }
-    
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+        color: #1cffc0;
+        text-decoration: revert;
+    }
 }

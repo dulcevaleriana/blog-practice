@@ -3,6 +3,7 @@ import { useEffect, useState } from "react/cjs/react.development";
 import { useParams } from "react-router-dom";
 import SanityClient from "../client.js";
 import BlockContent from '@sanity/block-content-to-react';
+import Comments from '../components/Comments';
 
 import ImageUrlBuilder from "@sanity/image-url";
 
@@ -76,6 +77,7 @@ export default function Post() {
                         serializers={serializers}
                     />
                 </div>
+                <Comments />
             </div>
         </div>
     )
