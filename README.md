@@ -8,9 +8,10 @@ First Results:
 
 React front:
 
-![image](https://user-images.githubusercontent.com/39066351/148985710-e33a8569-bb6a-4c1b-b6d8-cd2a8d59bee2.png)
+![image](https://user-images.githubusercontent.com/39066351/149221901-4265f8d9-eb5f-4d1b-887f-db33b5249fa2.png)
 
-![image](https://user-images.githubusercontent.com/39066351/148985776-7cb98800-4943-4fd6-a7a9-b2d719f46a92.png)
+![image](https://user-images.githubusercontent.com/39066351/149221996-b7ad368b-691c-4c5f-b0e9-a52d86cbf0b3.png)
+
 
 Sanity api:
 ![image](https://user-images.githubusercontent.com/39066351/148986534-3f4af62a-904c-4d8f-9f55-3f11532d04be.png)
