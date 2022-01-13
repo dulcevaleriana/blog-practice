@@ -7,21 +7,45 @@
   -moz-osx-font-soothing: grayscale;
 }
 
-.class-SocialMedia {
+.class-SocialMedia > div:nth-child(2) {
   position: fixed;
   top: calc(50vh - 130px);
   display: flex;
   flex-direction: column;
   gap: 20px;
   left: 0;
-  background: #1f2937d9;
-  padding: 10px;
-  border-radius: 0 10px 10px 0;
+  background: #2b384c;
+  padding: 10px 7px;
+  width: 45px;
+  border-radius: 0 0 10px 0;
 }
 
 .class-SocialMedia a {
   width: 30px !important;
   height: 30px !important;
+}
+
+.class-SocialMedia > svg{
+  float: left;
+  width: 45px;
+  padding: 10px 0;
+  height: 25px;
+  position: fixed;
+  bottom: calc(50vh - -130px);
+  left: 0;
+  z-index: 2;
+  background: #2b384c;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 0 1000px 1000px 0;
+}
+
+.class-SocialMedia > svg:nth-last-child(2){
+  border-radius: 0 10px 0 0;
 }
 
 .class-Footer {
