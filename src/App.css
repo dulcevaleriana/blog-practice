@@ -6,3 +6,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-soothing: grayscale;
 }
+
+.class-SocialMedia {
+  position: fixed;
+  top: calc(50vh - 130px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 0;
+  background: #1f2937d9;
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+}
+
+.class-SocialMedia a {
+  width: 30px !important;
+  height: 30px !important;
+}
